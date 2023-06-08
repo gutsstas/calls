@@ -1,0 +1,32 @@
+.search_container {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  height: 40px;
+  width: 482px;
+  background: #ffffff;
+  border: none;
+  border-radius: 48px;
+  background: transparent;
+  margin-left: -34px;
+  padding-left: 46px;
+}
+
+.search:focus {
+  outline: none;
+  border: 1px solid #002cfb !important;
+}
+
+.search_active {
+  border: 1px solid #eaf0fa;
+}
+
+.search_icon {
+  cursor: pointer;
+}
+.remove_icon {
+  margin-left: -31px;
+  cursor: pointer;
+}

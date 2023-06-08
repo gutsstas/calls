@@ -1,0 +1,80 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 36px;
+}
+
+.select {
+  width: auto;
+  div {
+    padding: 0 !important;
+    margin-right: 0;
+    width: auto;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #005ff8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  svg {
+    display: none;
+  }
+  fieldset {
+    border: none;
+  }
+}
+
+.select__available {
+  div {
+    color: #5e7793;
+  }
+}
+
+.select_item {
+  width: 204px;
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #122945;
+}
+
+.select_item:hover {
+  background: rgba(0, 44, 251, 0.13) !important;
+}
+
+.select_item:checked {
+  background: red !important;
+}
+
+.filters__type {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filters__arrow {
+  margin-left: 8px;
+}
