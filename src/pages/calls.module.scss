@@ -1,0 +1,231 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+.control_container {
+  display: flex;
+  align-self: flex-end;
+  margin: 20px 0 34px 0;
+  align-items: center;
+}
+
+.control__balance {
+  width: 145px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 48px;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control__balance__text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+  margin-right: 10px;
+  color: #899cb1;
+  height: 100%;
+  span {
+    color: #122945;
+  }
+}
+
+.control__balance__btn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.date_center {
+  display: flex;
+  align-items: center;
+  margin: 0 22px;
+}
+
+.date_center__div {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.date_container {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+}
+
+.select {
+  width: auto;
+  div {
+    padding: 0 !important;
+    margin-right: 0;
+    width: auto;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #005ff8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  svg {
+    display: none;
+  }
+  fieldset {
+    border: none;
+  }
+}
+
+.select_item {
+  width: 204px;
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #122945;
+}
+
+.select_item:hover {
+  background: rgba(0, 44, 251, 0.13) !important;
+}
+
+.select_item:checked {
+  background: red !important;
+}
+
+.listCalls {
+  width: 1440px;
+  margin: 0 auto;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 5px #e9edf3;
+  border-radius: 8px;
+}
+
+.listCalls_container {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+body {
+  background: #f1f4f9 no-repeat center center fixed;
+  background-size: cover;
+}
+
+.headerTable {
+  width: 1440px;
+  height: 61px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: right;
+  color: #899cb1;
+  // padding: 0 20px;
+  border-bottom: 1px solid #eaf0fa;
+}
+
+.first__group,
+.second__group {
+  display: flex;
+  align-items: center;
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.checkbox {
+  margin: 0 12px;
+}
+
+.time {
+  margin: 0 48px 0 30px;
+}
+
+.ring {
+  margin-left: 60px;
+}
+
+.score {
+  margin-left: 154px;
+}
+
+.long {
+  margin-right: 40px;
+}
+
+.date__call {
+  height: 56px;
+  width: 1440px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaf0fa;
+}
+
+.right,
+.left {
+  position: relative;
+  cursor: pointer;
+}
+
+.right::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: -3px;
+  left: -14px;
+}
+
+.left::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: -3px;
+  left: -14px;
+}
+
+.right:active,
+.left:active {
+  path {
+    fill: #002fffc3;
+  }
+}
+.right:hover,
+.left:hover {
+  path {
+    fill: #002cfb;
+  }
+}
+
+.dateCall {
+  height: 65px;
+  width: 100%;
+  padding: 0 0 0 43px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaf0fa;
+}

@@ -1,0 +1,168 @@
+.call {
+  width: 100%;
+  height: 65px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaf0fa;
+  cursor: pointer;
+}
+
+.call:hover {
+  background: rgba(212, 223, 243, 0.17);
+  .checkbox {
+    visibility: visible;
+  }
+}
+
+.checkbox:checked {
+  visibility: visible;
+}
+
+.checkbox {
+  visibility: hidden;
+  margin: 0 18px 0 12px;
+}
+
+.person_avatar_container {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 96px;
+}
+
+.person_avatar {
+  height: 32px;
+}
+
+.first__group,
+.second__group {
+  display: flex;
+  align-items: center;
+}
+.first__group {
+  width: 600px;
+}
+
+.second__group {
+  flex-grow: 1;
+  padding-left: 100px;
+}
+
+.time {
+  margin: 0 48px 0 38px;
+}
+
+.contact {
+  width: 300px;
+}
+
+.contact_name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.source {
+  width: 150px;
+  margin-right: 65px;
+}
+
+.score__error {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ea1a4f;
+}
+
+.score {
+  width: 150px;
+}
+
+.time__call {
+  margin-right: 40px;
+}
+
+.score__btn {
+  width: 122px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #002cfb;
+  border-radius: 4px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #002cfb;
+  cursor: pointer;
+}
+
+.score__btn:hover {
+  border: 1px solid #274bc8;
+  color: #274bc8;
+}
+
+.score__btn:active {
+  background-color: #0024cb;
+  border: 1px solid #0024cb;
+  color: #ffffff;
+}
+
+.audio {
+  height: 48px;
+  width: 352px;
+  background: #eaf0fa;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.audio__control {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio__time {
+  margin-left: 20px;
+  margin-right: 12px;
+}
+
+.audio__scale {
+  width: 164px;
+  margin: 0 18px 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+.audio__scale__slider {
+  // height: 4px;
+  // background: #adbfdf;
+}
+
+.audio__download {
+  margin-right: 22px;
+}
+
+.audio__download:active path {
+  fill: #002cfb;
+}
+
+.audio__close:active path {
+  fill: #002cfb;
+}
