@@ -1,10 +1,7 @@
 ![image](https://github.com/gutsstas/calls/assets/45783437/752664e2-ac6f-4646-85f7-b71719fddfa8)
 
-
-## Available Scripts
-
 In the project directory, you can run:
-
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
